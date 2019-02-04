@@ -3,25 +3,22 @@
 #include <vector>
 using namespace std;
 
+int main(){
 //strings
 //declarations
+
 string greeting="Hello";
-string fname;
+string fname="Skye";
 
-
-
-//input
-cout<< "Please enter your first name ";
-cin >> fname;
 
 string fullname= fname + " Haley";
 //output
-cout<< fullname;
+cout << fullname;
 
 //vectors
 
 vector <char> alphabet;
-vector <int> numbers={1,2,3,4,5,6,7,8,9,10};
+vector <int> numbers= {1,2,3,4,5,6,7,8,9,10};
 
 alphabet.push_back ('A');
 numbers.pop_back ();
@@ -35,8 +32,9 @@ numbers.pop_back ();
 
 // Auto
 
-auto i = 0
 
 for (auto i : numbers){
 	cout << i << " ";
+}
+return 0;
 }
